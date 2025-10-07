@@ -2,7 +2,7 @@
 body{
     /* background-color: #ffea00
  */
- /* background-image: url(imagens/images.jpg) ;
+/* background-image: url(imagens/images.jpg) ;
  background-repeat: no-repeat;
  background-size: cover;
 }
@@ -15,12 +15,33 @@ h1 {
 table {
     border: 1px solid black;
     width: 500px;
-    border-spacing: 5px; 
-    margin-left: auto; 
+    border-spacing: 5px;
+    margin-left: auto;
     margin-right: auto;
 }
 
 td {
+    border: 1px solid black;
     padding: 10px;
-    text-align: left;
+    text-align: right;
+}
+
+tr {
+    background-image: url(../src/imagens/images.jpg);
+}
+
+th {
+    background-color: white;
+}
+
+div {
+    border: 1px solid black;
+    width: 300px;
+    padding: 10px;
+} 
+
+div > div{   
+    background-color: lightblue;
+    border: 1px solid blue;
+    padding: 5px;
 }
